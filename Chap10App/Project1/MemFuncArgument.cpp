@@ -19,7 +19,7 @@ public:
 int main() {
 	int ch;
 	Calc c;
-	int a = 10, b = 5;
+	int a = 15, b = 10;
 
 	void (Calc:: * aOp[4])(int, int) =
 	{ &Calc::Op1 ,&Calc::Op2,&Calc::Op3,&Calc::Op4 };
